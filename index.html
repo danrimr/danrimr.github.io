@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <link rel="stylesheet" href="style.css">
+    <title>Horario</title>
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <header class="cd-main-header text-center flex flex-column flex-center">
+        <h1 class="text-xl">Horario</h1>
+    </header>
+    <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+        <div class="cd-schedule__timeline">
+            <ul>
+                <li><span>15:00</span></li>
+                <li><span>16:00</span></li>
+                <li><span>17:00</span></li>
+                <li><span>18:00</span></li>
+                <li><span>19:00</span></li>
+                <li><span>20:00</span></li>
+            </ul>
+        </div>
+        <div class="cd-schedule__events">
+            <ul>
+                <li class="cd-schedule__group">
+                    <div class="cd-schedule__top-info"><span>Lunes</span></div>
+                    <ul>
+                        <li class="cd-schedule__event">
+                            <a data-start="15:00" data-end="17:00" data-event="event-1"
+                                href="https://cedia.zoom.us/j/2197271616">
+                                <em class="cd-schedule__name">Administración de Empresas</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="17:00" data-end="19:00" data-event="event-2"
+                                href="https://cedia.zoom.us/j/88467409229">
+                                <em class="cd-schedule__name">Comunicaciones Digitales</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="19:00" data-end="21:00" data-event="event-3"
+                                href="https://cedia.zoom.us/j/84612203253">
+                                <em class="cd-schedule__name">Televisión Convencional</em>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cd-schedule__group">
+                    <div class="cd-schedule__top-info"><span>Martes</span></div>
+                    <ul>
+                        <li class="cd-schedule__event">
+                            <a data-start="15:00" data-end="16:00" data-event="event-4"
+                                href="https://eva.unl.edu.ec/course/view.php?id=22554">
+                                <em class="cd-schedule__name">Sistemas de Comunicaciones Radiantes</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="16:00" data-end="17:00" data-event="event-2"
+                                href="https://cedia.zoom.us/j/88467409229">
+                                <em class="cd-schedule__name">Comunicaciones Digitales</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="17:00" data-end="19:00" data-event="event-5"
+                                href="https://cedia.zoom.us/j/84475711961">
+                                <em class="cd-schedule__name">Comunicaciones Inalámbricas</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="19:00" data-end="21:00" data-event="event-4"
+                                href="https://eva.unl.edu.ec/course/view.php?id=22553">
+                                <em class="cd-schedule__name">Práctica de Sistemas de Comunicaciones Radiantes</em>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cd-schedule__group">
+                    <div class="cd-schedule__top-info"><span>Miércoles</span></div>
+                    <ul>
+                        <li class="cd-schedule__event">
+                            <a data-start="15:00" data-end="17:00" data-event="event-4"
+                                href="https://eva.unl.edu.ec/course/view.php?id=22554">
+                                <em class="cd-schedule__name">Sistemas de Comunicaciones Radiantes</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="17:00" data-end="19:00" data-event="event-5"
+                                href="https://cedia.zoom.us/j/84475711961">
+                                <em class="cd-schedule__name">Comunicaciones Inalámbricas</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="19:00" data-end="21:00" data-event="event-2"
+                                href="https://cedia.zoom.us/j/9580062903">
+                                <em class="cd-schedule__name">Práctica de Comunicaciones Digitales</em>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cd-schedule__group">
+                    <div class="cd-schedule__top-info"><span>Jueves</span></div>
+                    <ul>
+                        <li class="cd-schedule__event">
+                            <a data-start="15:00" data-end="18:00" data-event="event-6"
+                                href="https://cedia.zoom.us/j/84211056922">
+                                <em class="cd-schedule__name">Electrónica de Alta Frecuencia</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="18:00" data-end="20:00" data-event="event-5"
+                                href="https://cedia.zoom.us/j/84475711961">
+                                <em class="cd-schedule__name">Comunicaciones Inalámbricas</em>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cd-schedule__group">
+                    <div class="cd-schedule__top-info"><span>Viernes</span></div>
+                    <ul>
+                        <li class="cd-schedule__event">
+                            <a data-start="15:00" data-end="17:00" data-event="event-4"
+                                href="https://eva.unl.edu.ec/course/view.php?id=22554">
+                                <em class="cd-schedule__name">Sistemas de Comunicaciones Radiantes</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="17:00" data-end="19:00" data-event="event-7"
+                                href="https://cedia.zoom.us/j/89653287700">
+                                <em class="cd-schedule__name">Legislación de las Telecomunicaciones</em>
+                            </a>
+                        </li>
+                        <li class="cd-schedule__event">
+                            <a data-start="19:00" data-end="21:00" data-event="event-2"
+                                href="https://cedia.zoom.us/j/88467409229">
+                                <em class="cd-schedule__name">Comunicaciones Digitales</em>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="cd-schedule-modal">
+            <header class="cd-schedule-modal__header">
+                <div class="cd-schedule-modal__content">
+                    <span class="cd-schedule-modal__date"></span>
+                    <h3 class="cd-schedule-modal__name"></h3>
+                </div>
+                <div class="cd-schedule-modal__header-bg"></div>
+            </header>
+            <div class="cd-schedule-modal__body">
+                <div class="cd-schedule-modal__event-info"></div>
+                <div class="cd-schedule-modal__body-bg"></div>
+            </div>
+            <!-- <a href="#0" class="cd-schedule-modal__close text-replace">Close</a> -->
+        </div>
+        <div class="cd-schedule__cover-layer"></div>
+    </div>
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
